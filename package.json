@@ -1,0 +1,29 @@
+{
+  "name": "Colleen-Mantong-moviedex-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "dev":"ndb app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-emu/Colleen-Mantong-moviedex-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-emu/Colleen-Mantong-moviedex-api/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-emu/Colleen-Mantong-moviedex-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
